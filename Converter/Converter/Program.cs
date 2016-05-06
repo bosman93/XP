@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Converter
 {
-    class Program
+    class Format
     {
         static void Main(string[] args)
         {
