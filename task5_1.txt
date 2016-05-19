@@ -1,0 +1,1 @@
+nazwa waluty, kurs sprzedazy, kurs kupna
