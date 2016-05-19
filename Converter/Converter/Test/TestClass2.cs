@@ -14,8 +14,7 @@ namespace Converter.Test
         [Test]
         public void TestMethod()
         {
-            new Class2().cos();
-            // TODO: Add your test code here
+            new DataManager().saveData();
             if (File.Exists("C:/Users/Lukasz/XP/Converter/doc/plik.csv"))
                 Assert.Pass("Your first passing test");
             else

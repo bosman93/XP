@@ -13,11 +13,14 @@ namespace Converter.Test
         [Test]
         public void TestMethod()
         {
-            // TODO: Add your test code here
-            Class1 klasa = new Class1();
-            if(klasa.format != "csv") Assert.Fail("to sie nie zdarzy! szary kod");
-            else
-            Assert.Pass("Format danych do CSV!"); 
+            Constants klasa = new Constants();
+            if (klasa.format != "csv")
+            {
+                Assert.Fail("to sie nie zdarzy! szary kod");
+            }else
+            {
+                Assert.Pass("Format danych do CSV!");
+            }
             Console.WriteLine("Press ESC to stop");
             do
             {

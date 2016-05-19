@@ -5,7 +5,7 @@
   \_/  \_/    \/
 
 ---------------------------------------------\
-nazwa_waluty_1 kurs_kupna kurs_sprzedaży    |_\
+nazwa_waluty_1,kurs_kupna,kurs_sprzedaży    |_\
 ...                                            |
 ...                                            |
 ...                                            |
