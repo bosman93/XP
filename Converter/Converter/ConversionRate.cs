@@ -7,5 +7,10 @@ namespace Converter
 {
     class ConversionRate
     {
+        public string sellRate { get; set; }
+
+        public string buyRate { get; set; }
+
+        public string currency { get; set; }
     }
 }

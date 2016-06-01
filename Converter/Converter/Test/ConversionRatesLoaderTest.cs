@@ -11,10 +11,11 @@ namespace Converter.Test
     public class ConversionRatesLoaderTest
     {
         [Test]
-        public void TestValidFormat()
+        public void TestFileNotFound()
         {
             ConversionRatesLoader loader = new ConversionRatesLoader();
-            Assert.Throws<FormatException>(() => loader.load());
+            Assert.Throws<System.IO.FileNotFoundException>(() => loader.load("test_rates.csv"));
         }
+
     }
 }
