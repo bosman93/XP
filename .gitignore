@@ -1,2 +1,7 @@
 Converter/Converter/obj
 Converter/Converter/bin
+Converter/packages
+Converter/TestResults
+Converter/packages.config
+Converter/Converter/packages.config
+.nuget
