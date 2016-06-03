@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Converter
 {
-    class Format
+    public class Constants
     {
-        static void Main(string[] args)
-        {
+        public string format = "csv";
+
+        public string Format(){
+            return this.format;
         }
     }
 }

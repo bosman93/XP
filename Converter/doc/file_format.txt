@@ -1,0 +1,16 @@
+﻿Formatem danych do przechowywania informacji o kursach walut będą pliki
+  __    __  
+ /  \  |  \ \    /
+ |      \    \  /
+  \_/  \_/    \/
+
+---------------------------------------------\
+nazwa_waluty_1,kurs_kupna,kurs_sprzedaży    |_\
+...                                            |
+...                                            |
+...                                            |
+...                                            |
+------------------------------------------------
+
+
+ 
